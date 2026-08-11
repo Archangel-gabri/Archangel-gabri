@@ -13,6 +13,7 @@
 <a href="https://archangel-gabri.github.io/"><img src="https://img.shields.io/badge/Portfolio-archangel--gabri.github.io-6D28D9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
 <a href="https://t.me/Castiel68"><img src="https://img.shields.io/badge/Telegram-@Castiel68-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 <a href="mailto:kubrak15112006@gmail.com"><img src="https://img.shields.io/badge/Email-kubrak15112006-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://huggingface.co/vadimkubrak"><img src="https://img.shields.io/badge/Hugging%20Face-vadimkubrak-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
 <a href="https://orcid.org/0009-0003-1553-2982"><img src="https://img.shields.io/badge/ORCID-0009--0003--1553--2982-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 <img src="https://img.shields.io/badge/Moscow-Open%20to%20EU%20relocation-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 
