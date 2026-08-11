@@ -42,7 +42,11 @@ jobs:
           plugin_lines: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_details: percentage, bytes-size
-          plugin_languages_limit: 8
-          plugin_languages_threshold: 0%
+          # Languages needs METRICS_TOKEN: the built-in Actions token is scoped
+          # to this repository, so the user's repository list comes back empty
+          # and the section renders as "0 Languages". Uncomment once the secret
+          # exists — it will then also count TypeScript/C#/Go from private work.
+          # plugin_languages: yes
+          # plugin_languages_details: percentage, bytes-size
+          # plugin_languages_limit: 8
+          # plugin_languages_threshold: 0%
