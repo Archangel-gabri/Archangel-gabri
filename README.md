@@ -137,6 +137,8 @@ local embeddings. 470+ commits.
 
 | Project | What it is | Stack |
 |---|---|---|
+| **GORKYCODE 2025** | Hackathon — an AI service for public-procurement paperwork: computes the starting contract price under Russian 44-FZ and drafts the technical specification through a multi-step dialogue, with an LLM reading the answers. Cut spec preparation from ~8 hours to minutes | `Python` `GigaChat` `webhooks` |
+| **Маршруты** | Telegram bot that plans personalised city walks — an LLM picks points of interest, 2GIS optimises the route. Planning went ~10× faster; users rated it 4.7/5 | `Python` `GigaChat API` `2GIS API` |
 | **ProcureCheck** | Automated validation of Russian public-procurement notices for a team — parses tender PDFs and flags rule violations before submission | `Python` `pymupdf` `pdfplumber` |
 | **Ghost** | Interview assistant: captures voice and screen, feeds them to an LLM, answers in a glass overlay | `PySide6` `Qt` `LLM APIs` |
 | **ds5x** | Linux equivalent of DSX for the DualSense controller — adaptive triggers, lightbar, haptics | `C++` `Linux HID` |
