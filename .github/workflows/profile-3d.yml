@@ -1,0 +1,37 @@
+name: profile-3d
+
+# Renders the contribution calendar as an isometric 3D chart, committed
+# into ./profile-3d-contrib/ in this repo.
+
+on:
+  schedule:
+    - cron: "41 3 * * *"      # daily, 03:41 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.9.3
+        env:
+          # METRICS_TOKEN (classic PAT with `repo`) pulls in private-repo
+          # activity too; the built-in token covers public activity.
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          MAX_REPOS: "100"
+
+      - name: Commit result
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A ./profile-3d-contrib
+          git diff --staged --quiet || git commit -m "chore: refresh 3D contribution calendar"
+          git push
