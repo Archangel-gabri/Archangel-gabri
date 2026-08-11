@@ -153,6 +153,7 @@ local embeddings. 470+ commits.
 <tr><td width="50%" valign="top">
 
 **Applied analytics — De Novo Group**
+
 Inventory audit across a 1C:ERP installation: built the extraction path out of 1C, reconciled stock
 against movement history and surfaced the discrepancies. Also ran a two-round credit due-diligence
 review of a manufacturing client's financial model.
@@ -162,12 +163,14 @@ review of a manufacturing client's financial model.
 </td><td width="50%" valign="top">
 
 **Education**
-**Plekhanov Russian University of Economics** — BSc Statistics / Data Science *(in progress)*
-**School 21 (Sber)** — Data Science track, peer-to-peer C and algorithms curriculum
+
+• **Plekhanov Russian University of Economics** — BSc Statistics / Data Science *(in progress)*<br/>
+• **School 21 (Sber)** — Data Science track, peer-to-peer C and algorithms curriculum
 
 **Languages**
-Russian — native · **English — C2 Proficient**
-([EF SET 89/100](https://cert.efset.org/AUNUCR), 2026)
+
+• Russian — native<br/>
+• **English — C2 Proficient** — [EF SET 89/100](https://cert.efset.org/AUNUCR), 2026
 
 </td></tr>
 </table>
