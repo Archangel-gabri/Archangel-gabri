@@ -4,6 +4,10 @@ name: metrics
 # Why not the usual github-readme-stats badge: its public instance is a shared
 # Vercel deployment that is regularly rate-limited (503) or out of quota (402).
 # Generating in-repo means the README never shows a broken image.
+#
+# Plugin choice is deliberate: `habits` and `achievements` both need a personal
+# access token and render "Unexpected error" on the built-in GITHUB_TOKEN, so
+# they stay out until METRICS_TOKEN exists.
 
 on:
   schedule:
@@ -19,29 +23,23 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      # ── Main card: header + activity + repositories ──────────────────
+      # ── Overview: profile header, activity, repositories ─────────────
       - name: Overview card
         uses: lowlighter/metrics@v3.34
         with:
-          # METRICS_TOKEN (a classic PAT with `repo`) also counts private
+          # METRICS_TOKEN (classic PAT with `repo`) also counts private
           # contributions. Falls back to the built-in token if absent.
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: Archangel-gabri
           filename: metrics/metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, repositories
           config_timezone: Europe/Moscow
-          config_display: large
           config_animations: yes
           plugin_lines: yes
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_achievements: yes
-          plugin_achievements_threshold: B
-          plugin_achievements_display: compact
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
       # ── Language breakdown, weighted by lines of code ────────────────
       - name: Languages card
@@ -54,10 +52,7 @@ jobs:
           base: ""
           config_timezone: Europe/Moscow
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
+          plugin_languages_ignored: html, css, tex, makefile, dockerfile, batchfile, mako
+          plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
