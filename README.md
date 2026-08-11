@@ -10,6 +10,7 @@
 <br/>
 
 <!-- ────────────────────────────  CONTACT  ─────────────────────────── -->
+<a href="https://archangel-gabri.github.io/"><img src="https://img.shields.io/badge/Portfolio-archangel--gabri.github.io-6D28D9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
 <a href="https://t.me/Castiel68"><img src="https://img.shields.io/badge/Telegram-@Castiel68-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 <a href="mailto:kubrak15112006@gmail.com"><img src="https://img.shields.io/badge/Email-kubrak15112006-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://orcid.org/0009-0003-1553-2982"><img src="https://img.shields.io/badge/ORCID-0009--0003--1553--2982-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
@@ -185,27 +186,49 @@ review of a manufacturing client's financial model.
 
 **Languages & Core**
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,cs,cpp,bash,md&theme=dark" alt="languages" />
-
-**Backend & Data**
-
-<img src="https://skillicons.dev/icons?i=fastapi,dotnet,postgres,sqlite,redis,prisma,nginx&theme=dark" alt="backend" />
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,electron,html,css,figma&theme=dark" alt="frontend" />
+<img src="https://skillicons.dev/icons?i=python,ts,js,cs,cpp,bash,latex,md&theme=dark" alt="languages" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
 
 **AI / ML**
 
 <img src="https://skillicons.dev/icons?i=pytorch,sklearn,anaconda&theme=dark" alt="ai" />
+<br/>
 <img src="https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API" />
+<img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
+<img src="https://img.shields.io/badge/OpenRouter-1E293B?style=flat-square&logo=openrouter&logoColor=white" alt="OpenRouter" />
 <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP" />
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
 <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+<img src="https://img.shields.io/badge/RAG-0F766E?style=flat-square" alt="RAG" />
+<img src="https://img.shields.io/badge/Multi--agent%20orchestration-6D28D9?style=flat-square" alt="Multi-agent orchestration" />
+<img src="https://img.shields.io/badge/Vector%20search-9333EA?style=flat-square" alt="Vector search" />
+
+**Backend & Data**
+
+<img src="https://skillicons.dev/icons?i=fastapi,dotnet,postgres,sqlite,redis,prisma,nginx&theme=dark" alt="backend" />
+<br/>
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,electron,html,css,figma&theme=dark" alt="frontend" />
+<br/>
+<img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query" />
 
 **Infra & Tooling**
 
 <img src="https://skillicons.dev/icons?i=linux,arch,docker,git,github,githubactions,vscode&theme=dark" alt="infra" />
+<br/>
+<img src="https://img.shields.io/badge/systemd-30B980?style=flat-square&logo=linux&logoColor=white" alt="systemd" />
+<img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" alt="Tailscale" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
+<img src="https://img.shields.io/badge/Xray%20%2F%20Remnawave-1E3A8A?style=flat-square" alt="Xray / Remnawave" />
 
 </div>
 
