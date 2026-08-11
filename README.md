@@ -166,7 +166,8 @@ review of a manufacturing client's financial model.
 **School 21 (Sber)** — Data Science track, peer-to-peer C and algorithms curriculum
 
 **Languages**
-Russian — native · **English — C2 Proficient** (EF SET 89/100, 2026)
+Russian — native · **English — C2 Proficient**
+([EF SET 89/100](https://cert.efset.org/AUNUCR), 2026)
 
 </td></tr>
 </table>
