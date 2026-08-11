@@ -174,10 +174,8 @@ local embeddings. 470+ commits.
 <div align="center">
 
 <!-- Generated in-repo by .github/workflows/metrics.yml — no third-party uptime dependency -->
-<img src="./metrics/metrics.svg" width="49%" alt="GitHub metrics" />
-<img src="./metrics/metrics.languages.svg" width="49%" alt="Most used languages" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Archangel-gabri&bg_color=0B1120&color=A78BFA&line=9333EA&point=F8FAFC&area=true&area_color=6D28D9&hide_border=true&custom_title=Contribution%20graph" width="100%" alt="Contribution activity graph" />
+<img src="./metrics/metrics.svg" width="54%" align="top" alt="GitHub metrics" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Archangel-gabri&bg_color=0B1120&color=A78BFA&line=9333EA&point=F8FAFC&area=true&area_color=6D28D9&hide_border=true&custom_title=Contribution%20graph" width="44%" align="top" alt="Contribution activity graph" />
 
 <!-- 3D contribution calendar, generated in-repo -->
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution calendar" />
