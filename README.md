@@ -59,8 +59,6 @@ DPI-resistant transport (Vision/XHTTP), TLS, monitoring, backups.
 
 `Xray` `Remnawave` `Linux` `nginx` `Docker`
 
-[**→ Landing**](https://archangel-gabri.github.io/hubvpn-landing/)
-
 </td>
 <td width="50%" valign="top">
 
