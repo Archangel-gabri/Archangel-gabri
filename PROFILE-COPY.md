@@ -103,6 +103,36 @@ Linux, GitHub Actions.
 
 ## Опыт (формулировки для блока Experience)
 
+**Data Analytics Intern — Gazprombank (JSC) · март — август 2026**
+> Product and customer analytics: pulled data from several warehouse tables (transactions, customer
+> profiles, operation history), joined and cleaned them in SQL, and built an analytical view — customer
+> segmentation, cohort retention analysis, and metrics such as activity, average transaction value and
+> churn. Presented the findings as interactive Python dashboards (pandas, NumPy, Matplotlib/Plotly),
+> each with a short business-readable takeaway.
+>
+> Built the internship's main deliverable: a tool that prepares a recurring analytical report
+> automatically. A pipeline gathers data from several sources, computes the required metrics, and a
+> large language model drafts the narrative commentary analysts previously wrote by hand — wrapped in a
+> small internal web interface built with FastAPI. Report preparation went from most of a working day
+> to about fifteen minutes.
+
+RU-версия:
+> Продуктовая и клиентская аналитика: выгружал данные из нескольких таблиц хранилища (транзакции,
+> профили клиентов, история операций), соединял и чистил их в SQL, собрал аналитическую витрину —
+> сегментация клиентов, когортный анализ удержания, метрики активности, среднего чека и оттока.
+> Результаты подавал интерактивными дашбордами на Python (pandas, NumPy, Matplotlib/Plotly), каждый
+> с коротким выводом на языке бизнеса.
+>
+> Главный результат стажировки — инструмент автоматической подготовки регулярного аналитического
+> отчёта: пайплайн собирает данные из нескольких источников, считает метрики, а языковая модель пишет
+> текстовый комментарий, который раньше аналитики набирали руками; всё завёрнуто во внутренний
+> веб-интерфейс на FastAPI. Подготовка отчёта сократилась с почти полного рабочего дня до пятнадцати
+> минут.
+
+> ⚠️ Для вакансий в ЕС: Газпромбанк под санкциями OFAC и ЕС. Опыт настоящий и его не скрываем, но в
+> заявках на европейские позиции — особенно в финсекторе — ставить его нейтрально, а вперёд выносить
+> инженерную часть (LLM-пайплайн, FastAPI), а не название банка.
+
 **Applied analytics — De Novo Group**
 > Inventory audit across a 1C:ERP installation: built the extraction path out of 1C, reconciled stock
 > against movement history and surfaced the discrepancies for management. Ran a two-round credit

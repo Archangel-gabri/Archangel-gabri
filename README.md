@@ -155,6 +155,22 @@ local embeddings. 470+ commits.
 <table>
 <tr><td width="50%" valign="top">
 
+**Data Analytics Intern — Gazprombank (JSC)**
+*Mar – Aug 2026*
+
+Product and customer analytics: pulled data from several warehouse tables, joined and cleaned it in
+SQL, and built an analytical view — customer segmentation, cohort retention, activity, average
+transaction value and churn — presented as interactive Python dashboards.
+
+Main deliverable: a tool that prepares a recurring analytical report automatically. A pipeline
+gathers data from several sources, computes the metrics, and an LLM drafts the narrative commentary
+analysts used to write by hand, wrapped in a small internal FastAPI interface.
+**Report preparation went from most of a working day to about fifteen minutes.**
+
+`SQL` `pandas` `NumPy` `Plotly` `FastAPI` `LLM`
+
+<br/>
+
 **Applied analytics — De Novo Group**
 
 Inventory audit across a 1C:ERP installation: built the extraction path out of 1C, reconciled stock
