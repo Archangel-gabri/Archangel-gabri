@@ -40,8 +40,8 @@ jobs:
           config_timezone: Europe/Moscow
           config_animations: yes
           plugin_lines: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # No isocalendar here: the README already shows a contribution graph
+          # and a 3D calendar, and its light grid clashes with the dark palette.
           # Languages needs METRICS_TOKEN: the built-in Actions token is scoped
           # to this repository, so the user's repository list comes back empty
           # and the section renders as "0 Languages". Uncomment once the secret
