@@ -12,7 +12,7 @@
 <!-- ────────────────────────────  CONTACT  ─────────────────────────── -->
 <a href="https://t.me/Castiel68"><img src="https://img.shields.io/badge/Telegram-@Castiel68-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 <a href="mailto:kubrak15112006@gmail.com"><img src="https://img.shields.io/badge/Email-kubrak15112006-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/Archangel-gabri/llm-university-math-benchmark"><img src="https://img.shields.io/badge/Research-LLM%20Benchmark-9333EA?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Research" /></a>
+<a href="https://orcid.org/0009-0003-1553-2982"><img src="https://img.shields.io/badge/ORCID-0009--0003--1553--2982-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 <img src="https://img.shields.io/badge/Moscow-Open%20to%20EU%20relocation-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 
 </div>
@@ -27,8 +27,8 @@ I build **LLM-powered systems that run in production** — not notebooks, not de
 
 Over the last two years I shipped a multi-node VPN platform serving live users, a CRM with a 53-endpoint
 FastAPI backend, and a university-wide records system deployed on real hardware. In parallel I ran a
-**process-level benchmark of 12 LLMs across 75 university math problems**, now written up for a Scopus-indexed
-journal. The through-line: I take an AI capability and turn it into something people actually log into.
+**process-level benchmark of 12 LLMs across 75 university math problems** and published the full dataset.
+The through-line: I take an AI capability and turn it into something people actually log into.
 
 ```yaml
 role:      AI / LLM Application Engineer  ·  Full-Stack
@@ -63,11 +63,11 @@ DPI-resistant transport (Vision/XHTTP), TLS, monitoring, backups.
 <td width="50%" valign="top">
 
 ### 📊 LLM University Math Benchmark
-**Research · submitted to a Q1 journal**
+**Research · open dataset**
 
 A *process-level* benchmark: 75 university math problems × 12 LLMs, every solution rubric-graded by an
-LLM-as-a-judge — scoring the reasoning chain, not just the final answer. Full dataset, prompts, grading
-rubrics and validation set are open.
+LLM-as-a-judge — scoring the reasoning chain, not just the final answer. Problems, raw model outputs,
+prompts, grading rubrics and scoring code are public, in Russian and English.
 
 `Python` `LLM-as-a-judge` `Open dataset`
 
@@ -127,6 +127,48 @@ local embeddings. 470+ commits.
 
 </td>
 </tr>
+</table>
+
+<details>
+<summary><b>More things I've built</b></summary>
+
+<br/>
+
+| Project | What it is | Stack |
+|---|---|---|
+| **ProcureCheck** | Automated validation of Russian public-procurement notices for a team — parses tender PDFs and flags rule violations before submission | `Python` `pymupdf` `pdfplumber` |
+| **Ghost** | Interview assistant: captures voice and screen, feeds them to an LLM, answers in a glass overlay | `PySide6` `Qt` `LLM APIs` |
+| **ds5x** | Linux equivalent of DSX for the DualSense controller — adaptive triggers, lightbar, haptics | `C++` `Linux HID` |
+| **PROEB routing** | White-list routing rule compiler that emits client-specific profiles for Happ, Xray, sing-box and mihomo from one ruleset | `Python` |
+
+</details>
+
+<br/>
+
+<!-- ────────────────────────────  EXPERIENCE  ──────────────────────── -->
+
+## `~` Experience & credentials
+
+<table>
+<tr><td width="50%" valign="top">
+
+**Applied analytics — De Novo Group**
+Inventory audit across a 1C:ERP installation: built the extraction path out of 1C, reconciled stock
+against movement history and surfaced the discrepancies. Also ran a two-round credit due-diligence
+review of a manufacturing client's financial model.
+
+`1C:ERP` `SQL` `Financial modelling`
+
+</td><td width="50%" valign="top">
+
+**Education**
+**Plekhanov Russian University of Economics** — BSc Statistics / Data Science *(in progress)*
+**School 21 (Sber)** — Data Science track, peer-to-peer C and algorithms curriculum
+
+**Languages**
+Russian — native · **English — C2 Proficient** (EF SET 89/100, 2026)
+
+</td></tr>
 </table>
 
 <br/>
@@ -194,8 +236,9 @@ local embeddings. 470+ commits.
 ## `~` Currently
 
 - 🔭 Scaling **HubVPN** — DPI-resistant transports and a cleaner multi-node control plane
-- 📄 Finishing the **LLM math-reasoning paper** for a Scopus-indexed venue
-- 🧪 Building agentic tooling — MCP servers, multi-agent orchestration, local-first AI apps
+- 🧪 Redesigning the **LLM math-evaluation study** around a new question: how much of an automatic
+  judge's reliability depends on the *language* of the problem, the solution and the rubric
+- 🛠 Building agentic tooling — MCP servers, multi-agent orchestration, local-first AI apps
 - 🌍 **Open to AI/LLM engineering roles in the EU** — relocation ready
 
 <br/>

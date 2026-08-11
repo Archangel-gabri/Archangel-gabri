@@ -50,10 +50,6 @@ jobs:
           plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
           plugin_languages_threshold: 0%
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: compact
+          # habits/achievements stay off: they still render "Unexpected error"
+          # even with METRICS_TOKEN (they need commit-level search the token
+          # does not cover here). Languages works and is enabled above.
