@@ -23,8 +23,11 @@
 | Telegram | https://t.me/Castiel68 |
 | Email | kubrak15112006@gmail.com |
 
-Аватар (один и тот же везде): `projects/github-profile/assets/avatar.jpg` (800×800, кроп исходного
-фото без цветокоррекции — решение владельца 13.08.2026).
+Аватар (один и тот же на всех шести площадках): `projects/github-profile/assets/avatar.jpg`
+(800×800, кроп студийного портрета `assets/headshot-original.png`; владелец прислал его 13.08.2026
+взамен прежнего селфи). Баннер LinkedIn — `assets/linkedin-banner.jpg` (1584×396).
+Резюме одной страницей — `projects/github-profile-site/Vadim-Kubrak-CV.pdf`, собирается из
+`cv.html` через `Page.printToPDF`.
 
 ---
 
