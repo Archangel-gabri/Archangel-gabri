@@ -139,19 +139,13 @@ RU-версия:
 > заявках на европейские позиции — особенно в финсекторе — ставить его нейтрально, а вперёд выносить
 > инженерную часть (LLM-пайплайн, FastAPI), а не название банка.
 
-**Applied analytics — De Novo Group**
-> Inventory audit across a 1C:ERP installation: built the extraction path out of 1C, reconciled stock
-> against movement history and surfaced the discrepancies for management. Ran a two-round credit
-> due-diligence review of a manufacturing client's financial model.
+> ⛔ **De Novo Group в опыт работы НЕ ставим.** Владелец подтвердил 13.08.2026: он там не работал.
+> Аудит запасов в 1С:ERP и кредитный due diligence были разовыми задачами, а не наймом. Если понадобится
+> показать эти навыки — только как проект или кейс, без строки в опыте работы.
 
 **Independent engineering (2024 — present)**
 > Design, build and operate production systems end to end: infrastructure provisioning, backend and
 > front end, deployment and on-going operations — including a VPN platform with paying users.
-
-RU-версия для hh.ru:
-> Аудит товарных запасов в 1С:ERP: выстроил путь выгрузки данных, сверил остатки с историей движения,
-> собрал расхождения для руководства. Провёл кредитный due diligence финансовой модели производственного
-> клиента в двух итерациях.
 
 ---
 

@@ -176,13 +176,6 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 
 <br/>
 
-**Applied analytics — De Novo Group**
-
-Inventory audit across a 1C:ERP installation: built the extraction path out of 1C, reconciled stock
-against movement history and surfaced the discrepancies. Also ran a two-round credit due-diligence
-review of a manufacturing client's financial model.
-
-`1C:ERP` `SQL` `Financial modelling`
 
 </td><td width="50%" valign="top">
 
