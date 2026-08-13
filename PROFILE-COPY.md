@@ -14,11 +14,17 @@
 |---|---|
 | Сайт-визитка | https://archangel-gabri.github.io/ |
 | GitHub | https://github.com/Archangel-gabri |
+| LinkedIn | https://www.linkedin.com/in/vadimkubrak/ |
+| Hugging Face | https://huggingface.co/vadimkubrak |
+| Kaggle | https://www.kaggle.com/vadimkubrak |
 | Открытый датасет | https://github.com/Archangel-gabri/llm-university-math-benchmark |
 | ORCID | https://orcid.org/0009-0003-1553-2982 |
 | Английский C2 | https://cert.efset.org/AUNUCR |
 | Telegram | https://t.me/Castiel68 |
 | Email | kubrak15112006@gmail.com |
+
+Аватар (один и тот же везде): `projects/github-profile/assets/avatar.jpg` (800×800, кроп исходного
+фото без цветокоррекции — решение владельца 13.08.2026).
 
 ---
 
