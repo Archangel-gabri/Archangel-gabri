@@ -11,10 +11,14 @@
 
 <!-- ────────────────────────────  CONTACT  ─────────────────────────── -->
 <a href="https://archangel-gabri.github.io/"><img src="https://img.shields.io/badge/Portfolio-archangel--gabri.github.io-6D28D9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/vadimkubrak/"><img src="https://img.shields.io/badge/LinkedIn-vadimkubrak-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://t.me/Castiel68"><img src="https://img.shields.io/badge/Telegram-@Castiel68-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 <a href="mailto:kubrak15112006@gmail.com"><img src="https://img.shields.io/badge/Email-kubrak15112006-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<br/>
 <a href="https://huggingface.co/vadimkubrak"><img src="https://img.shields.io/badge/Hugging%20Face-vadimkubrak-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
+<a href="https://www.kaggle.com/vadimkubrak"><img src="https://img.shields.io/badge/Kaggle-vadimkubrak-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
 <a href="https://orcid.org/0009-0003-1553-2982"><img src="https://img.shields.io/badge/ORCID-0009--0003--1553--2982-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
+<a href="https://cert.efset.org/AUNUCR"><img src="https://img.shields.io/badge/English-C2%20Proficient%20(EF%20SET%2089%2F100)-1E40AF?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English C2" /></a>
 <img src="https://img.shields.io/badge/Moscow-Open%20to%20EU%20relocation-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 
 </div>
@@ -293,6 +297,6 @@ review of a manufacturing client's financial model.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:9333EA,30:6D28D9,65:1E3A8A,100:0B1120&reversal=true" alt="" />
 
-<sub>Reach me on <a href="https://t.me/Castiel68">Telegram</a> · <a href="mailto:kubrak15112006@gmail.com">Email</a></sub>
+<sub>Reach me on <a href="https://www.linkedin.com/in/vadimkubrak/">LinkedIn</a> · <a href="https://t.me/Castiel68">Telegram</a> · <a href="mailto:kubrak15112006@gmail.com">Email</a> — full CV at <a href="https://archangel-gabri.github.io/">archangel-gabri.github.io</a></sub>
 
 </div>
