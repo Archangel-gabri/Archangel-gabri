@@ -19,7 +19,7 @@
 | Kaggle | https://www.kaggle.com/vadimkubrak |
 | Открытый датасет | https://github.com/Archangel-gabri/llm-university-math-benchmark |
 | ORCID | https://orcid.org/0009-0003-1553-2982 |
-| Английский C2 | https://cert.efset.org/AUNUCR |
+| Английский C1 | https://cert.efset.org/AUNUCR |
 | Telegram | https://t.me/Castiel68 |
 | Email | kubrak15112006@gmail.com |
 
@@ -35,82 +35,114 @@
 
 **EN (LinkedIn, 220 знаков макс — рекрутёры ищут именно по нему):**
 ```
-AI / LLM Application Engineer · Production LLM systems, multi-agent pipelines, RAG & MCP · FastAPI · React · Linux · Open to EU relocation
+Data Engineer | Analytics Engineer | Data Analyst | Python · SQL · PostgreSQL · ETL/ELT · Data Modeling · FastAPI · Docker · CI/CD | English C1
 ```
 
 **EN, короткий вариант (Hugging Face, GitLab, Stack Overflow):**
 ```
-AI / LLM Application Engineer — production LLM systems, not demos
+Data Engineer — Python, SQL, ETL/ELT, data modeling and automation
 ```
 
 **RU (hh.ru, Хабр Карьера — желаемая должность):**
 ```
-AI/LLM инженер (LLM Application Engineer)
+Data Engineer / Инженер данных
 ```
 
-Альтернативы под конкретную вакансию: `LLM Engineer` · `AI Engineer` · `Backend Engineer (Python/AI)`
-· `Full-Stack Engineer (Python/TypeScript)`. Заголовок подгоняем под название вакансии — по нему
+Альтернативы под конкретную вакансию: `Analytics Engineer` · `Data Analyst` · `Backend Engineer (Python)`
+· `AI Engineer` · `LLM Application Engineer`. Заголовок подгоняем под название вакансии — по нему
 работает поиск рекрутёра.
 
 ---
 
 ## About / О себе
 
-**EN (LinkedIn, ~1600 знаков; первые 220 знаков решают — они видны до «See more»):**
+**EN (LinkedIn; первые 220 знаков решают — они видны до «See more»):**
 
 ```
-I build LLM-powered systems that run in production — not notebooks, not demos.
+I build data systems end to end: ingestion, transformation, relational modeling, analytics, APIs,
+scheduled jobs and production operations. Python, SQL, PostgreSQL, pandas, FastAPI, Docker, Linux
+and CI/CD.
 
-Over the last two years I shipped and now operate a multi-node VPN platform with live paying users,
-a club CRM on a 53-endpoint FastAPI backend with a React 18 / TypeScript front end, and a
-university-wide records system running on real hardware with a local vision model reading scanned
-documents into structured records.
+Currently I work as a Data Engineer on ProcureCheck for Nizhny Novgorod City Administration:
+Python/FastAPI document processing, PDF and DOCX extraction, 20 procurement-compliance checks,
+Docker and GitLab CI.
 
-Alongside that I ran a process-level benchmark of 12 large language models across 75 university
-mathematics problems, grading the reasoning chain rather than the final answer alone, and published
-the full dataset, prompts and scoring code openly in Russian and English.
+During my Data Analytics internship at Gazprombank, I joined and cleaned warehouse data in SQL,
+built analytical views for segmentation, retention and churn, and created an internal FastAPI
+pipeline that calculated metrics and used an LLM to draft analyst commentary. Recurring report
+preparation dropped from most of a working day to about 15 minutes.
 
-What I actually do day to day: design multi-agent pipelines and RAG systems, wire models into real
-products through the Claude and OpenAI APIs, MCP servers and local inference, and then take
-responsibility for the boring half — deployment, TLS, monitoring, backups and the on-call that comes
-with users who notice when something breaks.
+I have also shipped:
+• FX Analytics: asynchronous ingestion from central-bank, exchange and market-data sources,
+  normalization, historical backfill, bulk upserts and scheduled reports;
+• a production golf-club CRM with 50+ FastAPI endpoints and a React 18 / TypeScript front end;
+• a university records system on ASP.NET Core and PostgreSQL with local vision extraction from
+  scanned documents;
+• a multi-node infrastructure platform with provisioning, routing, TLS, monitoring, backups and
+  incident response, operated through August 2026 and then shut down cleanly.
 
-Stack: Python · FastAPI · SQLAlchemy · PostgreSQL · TypeScript · React 18 · Electron · C#/ASP.NET ·
-Docker · Linux · GitHub Actions.
+Day to day: Python, SQL, pandas, NumPy, FastAPI, SQLAlchemy, PostgreSQL, SQLite, ETL/ELT-style
+pipelines, relational data modeling, scheduled jobs, Docker, Linux, CI/CD and AI-assisted
+automation.
 
-Studying Statistics / Data Science at Plekhanov Russian University of Economics, plus the Data
-Science track at School 21 (Sber). English C2 (EF SET 89/100).
+BSc Statistics / Data Science at Plekhanov Russian University of Economics (2024–2028), plus the
+Data Science track at School 21 (Sber). English C1, EF SET 89/100.
 
-Open to AI / LLM engineering roles in the EU — relocation ready.
+Open to full-time, contract and internship roles in data engineering, analytics engineering, data
+analytics and Python backend. Available for remote work from Russia now and ready for
+employer-supported relocation while continuing my BSc.
 ```
 
 **RU (hh.ru «О себе», Хабр Карьера):**
 
 ```
-Делаю системы на больших языковых моделях, которые работают в проде, а не в ноутбуке.
+Строю системы данных end to end: сбор, преобразование, реляционные модели, аналитика, API,
+плановые задачи и эксплуатация. Python, SQL, PostgreSQL, pandas, FastAPI, Docker, Linux и CI/CD.
 
-За последние два года запустил и продолжаю поддерживать: многонодовую VPN-платформу с живыми
-платящими пользователями; CRM клуба на FastAPI (53 эндпоинта) с фронтендом на React 18 и TypeScript;
-информационную систему учёта справок вуза на ASP.NET Core с локальной vision-моделью, которая
-распознаёт сканы в структурированные записи. Всё это развёрнуто на реальном железе и обслуживается
-мной же — TLS, мониторинг, бэкапы, разбор инцидентов.
+Сейчас работаю Data Engineer в проекте ProcureCheck для администрации Нижнего Новгорода: обработка
+закупочной документации на Python/FastAPI, извлечение данных из PDF и DOCX, 20 проверок, Docker и
+GitLab CI.
 
-Отдельно провёл исследование: сравнил 12 языковых моделей на 75 задачах университетской математики,
-оценивая ход решения, а не только ответ. Датасет, промпты и код оценки выложил открыто.
+На стажировке в Газпромбанке собрал внутренний FastAPI-пайплайн, который объединял данные из
+нескольких источников, рассчитывал метрики и через LLM готовил черновик аналитического комментария.
+Подготовка регулярного отчёта сократилась с большей части рабочего дня примерно до 15 минут.
 
-Ежедневная работа: мультиагентные пайплайны, RAG, интеграция моделей в продукты через Claude API,
-OpenAI API, MCP и локальный инференс.
+Также собрал FX Analytics с асинхронным сбором данных из нескольких источников, историческим
+backfill, bulk-upsert и плановыми отчётами; запустил CRM гольф-клуба на 50+ FastAPI-эндпоинтов с
+React 18/TypeScript; сделал систему учёта справок вуза на ASP.NET Core/PostgreSQL с локальным
+vision-распознаванием; эксплуатировал многоузловую Linux-инфраструктуру с TLS, мониторингом,
+бэкапами и разбором инцидентов.
 
-Стек: Python, FastAPI, SQLAlchemy, PostgreSQL, TypeScript, React 18, Electron, C#/ASP.NET, Docker,
-Linux, GitHub Actions.
+Стек: Python, SQL, pandas, NumPy, FastAPI, SQLAlchemy, PostgreSQL, SQLite, ETL/ELT-пайплайны,
+реляционное моделирование данных, плановые задачи, Docker, Linux и CI/CD.
 
-РЭУ им. Плеханова, «Статистика»/Data Science. Школа 21 (Сбер), направление Data Science.
-Английский C2 (EF SET 89/100).
+РЭУ им. Плеханова, «Статистика»/Data Science, 2024–2028. Школа 21 (Сбер), Data Science.
+Английский C1 (EF SET 89/100). Открыт к полной занятости, контракту или стажировке в data
+engineering, analytics engineering, data analytics и Python backend; сейчас — удалённо из России,
+также готов к релокации при поддержке работодателя, продолжая бакалавриат.
 ```
 
 ---
 
 ## Опыт (формулировки для блока Experience)
+
+**Data Engineer — Администрация города Нижнего Новгорода · июнь 2026 — настоящее время**
+(в hh-резюме должность записана как «Инженер-программист»)
+> Data-engineering team building ProcureCheck — automated compliance checking of public procurement
+> document packages under Russian federal laws 44-FZ and 223-FZ. Four input documents (notice, draft
+> contract, object description, bid requirements) go in; a short summary and a full report across
+> twenty checks come out.
+> Stack: Python · FastAPI · PDF and DOCX parsing (PyMuPDF, pdfplumber) · Docker · GitLab CI.
+> More commits in the project than anyone else on the team.
+
+RU-версия:
+> Команда data-engineering, проект ProcureCheck — автоматическая проверка пакетов закупочной
+> документации по 44-ФЗ и 223-ФЗ. На вход четыре документа, на выходе краткая сводка и полный отчёт
+> по двум десяткам проверок. Python, FastAPI, разбор PDF и DOC/DOCX, Docker, GitLab CI.
+> Коммитов в проекте больше, чем у любого другого участника команды.
+
+Стоит везде: hh-резюме, LinkedIn, PDF-резюме (`projects/github-profile-site/cv.html`). Добавлено
+15.08.2026 — до этого опыт во всех профилях заканчивался стажировкой в Газпромбанке.
 
 **Data Analytics Intern — Gazprombank (JSC) · март — август 2026**
 > Product and customer analytics: pulled data from several warehouse tables (transactions, customer
@@ -147,23 +179,28 @@ RU-версия:
 > показать эти навыки — только как проект или кейс, без строки в опыте работы.
 
 **Independent engineering (2024 — present)**
-> Design, build and operate production systems end to end: infrastructure provisioning, backend and
-> front end, deployment and on-going operations — including a VPN platform with paying users.
+> Design, build and operate systems end to end: data ingestion and storage, backend and front end,
+> infrastructure provisioning, deployment and ongoing operations — including a multi-node network
+> platform used by a small private group and shut down cleanly in August 2026.
 
 ---
 
 ## Навыки (порядок важен — по нему работает поиск)
 
 ```
-LLM · Large Language Models · Prompt Engineering · RAG · Retrieval-Augmented Generation ·
-Multi-Agent Systems · Model Context Protocol (MCP) · Claude API · OpenAI API · LangChain · Ollama ·
-Vector Search · Embeddings · Python · FastAPI · SQLAlchemy · Pydantic · PostgreSQL · SQL · REST API ·
-TypeScript · React · Electron · C# · ASP.NET Core · Docker · Linux · nginx · GitHub Actions ·
-CI/CD · pandas · NumPy · PyTorch · scikit-learn · Git · Playwright
+Data Engineering · Analytics Engineering · Data Analysis · Python · SQL · PostgreSQL · SQLite ·
+ETL · ELT · Data Pipelines · Data Modeling · Data Quality · pandas · NumPy · openpyxl · scikit-learn ·
+statsmodels · Matplotlib · FastAPI · SQLAlchemy · Pydantic · REST API · Docker · Docker Compose ·
+Linux · nginx · systemd · GitLab CI · GitHub Actions · CI/CD · Git · TypeScript · React · C# ·
+ASP.NET Core · LLM · RAG · Model Context Protocol (MCP) · Claude API · OpenAI API · Ollama · Playwright
 ```
 
-hh.ru берёт ограниченное число ключевых навыков — ставить первыми: Python, FastAPI, LLM, RAG,
-PostgreSQL, Docker, Linux, TypeScript, React, SQL.
+hh.ru берёт ограниченное число ключевых навыков — ставить первыми: Python, SQL, Data Engineering,
+ETL, PostgreSQL, pandas, Data Modeling, FastAPI, Docker, Linux, CI/CD.
+
+`Apache Airflow`, `dbt` и cloud object storage не выдавать за коммерческий опыт до появления
+воспроизводимого проекта: DAG с retries/backfill/idempotency, dbt staging/marts/tests/lineage и
+S3-совместимое хранилище с понятной моделью доступа и lifecycle.
 
 ---
 
@@ -171,7 +208,7 @@ PostgreSQL, Docker, Linux, TypeScript, React, SQL.
 
 - **РЭУ им. Г.В. Плеханова** — бакалавриат, «Статистика» / Data Science, в процессе
 - **Школа 21 (Сбер)** — Data Science, peer-to-peer программа по C и алгоритмам
-- **EF SET English Certificate** — C2 Proficient, 89/100 (2026), https://cert.efset.org/AUNUCR
+- **EF SET English Certificate** — 89/100 (2026), https://cert.efset.org/AUNUCR
 
 ---
 
@@ -179,10 +216,10 @@ PostgreSQL, Docker, Linux, TypeScript, React, SQL.
 
 **160 знаков:**
 ```
-AI/LLM Application Engineer. Production LLM systems, multi-agent pipelines, RAG, MCP. FastAPI · React · Linux. Open to EU relocation.
+Data Engineer: Python, SQL, PostgreSQL, ETL/ELT, data modeling and automation. Open to remote work and employer-supported relocation.
 ```
 
 **80 знаков (Hugging Face, GitLab):**
 ```
-AI/LLM Application Engineer — production LLM systems, RAG, MCP
+Data Engineer — Python, SQL, ETL/ELT and automation
 ```

@@ -18,7 +18,7 @@
 <a href="https://huggingface.co/vadimkubrak"><img src="https://img.shields.io/badge/Hugging%20Face-vadimkubrak-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
 <a href="https://www.kaggle.com/vadimkubrak"><img src="https://img.shields.io/badge/Kaggle-vadimkubrak-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
 <a href="https://orcid.org/0009-0003-1553-2982"><img src="https://img.shields.io/badge/ORCID-0009--0003--1553--2982-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
-<a href="https://cert.efset.org/AUNUCR"><img src="https://img.shields.io/badge/English-C2%20Proficient%20(EF%20SET%2089%2F100)-1E40AF?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English C2" /></a>
+<a href="https://cert.efset.org/AUNUCR"><img src="https://img.shields.io/badge/English-C1%20Advanced%20(EF%20SET%2089%2F100)-1E40AF?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English C1" /></a>
 <img src="https://img.shields.io/badge/Moscow-Open%20to%20EU%20relocation-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 
 </div>
@@ -43,7 +43,7 @@ backend:   Python · FastAPI · SQLAlchemy · PostgreSQL · C#/ASP.NET
 frontend:  TypeScript · React 18 · Vite · TanStack · Tailwind · Electron
 infra:     Linux (Arch/Debian) · Docker · nginx · systemd · Xray/Remnawave
 education: Plekhanov REU — Statistics  ·  School 21 (Sber) — Data Science
-languages: Russian (native) · English (C2 Proficient, EF SET 89/100)
+languages: Russian (native) · English (C1 Advanced, EF SET 89/100)
 ```
 
 <br/>
@@ -187,7 +187,7 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 **Languages**
 
 • Russian — native<br/>
-• **English — C2 Proficient** — [EF SET 89/100](https://cert.efset.org/AUNUCR), 2026
+• **English — C1 Advanced** — [EF SET 89/100](https://cert.efset.org/AUNUCR), 2026
 
 </td></tr>
 </table>

@@ -12,7 +12,7 @@
 | Площадка | Ссылка | Состояние |
 |---|---|---|
 | Сайт | archangel-gabri.github.io | портрет, ссылки на все площадки, OG-карточка, JSON-LD (`sameAs`×6, EF SET, `seeks`), **русская версия `/ru/`** с переключателем и hreflang, **`Vadim-Kubrak-CV.pdf`** на одну страницу |
-| GitHub | Archangel-gabri | портрет, Website, 4 соц-ссылки (Telegram, ORCID, LinkedIn, HF), README со ссылками на все площадки и бейджем C2 |
+| GitHub | Archangel-gabri | портрет, Website, 4 соц-ссылки (Telegram, ORCID, LinkedIn, HF), README со ссылками на все площадки и бейджем C1 |
 | LinkedIn | /in/vadimkubrak | **баннер 1584×396**, портрет с рамкой #OpenToWork, заголовок, About, 2 места работы, 2 образования, 19 навыков, **4 проекта**, **сертификат EF SET**, **языки RU/EN**, Open-to-work (5 должностей, Москва + Берлин/Амстердам/Варшава, удалёнка) |
 | Hugging Face | vadimkubrak | портрет, био, homepage, GitHub, LinkedIn |
 | Kaggle | vadimkubrak | портрет, тайтл, occupation, организация, Москва, био, сайт + GitHub |
