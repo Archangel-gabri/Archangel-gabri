@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0B1120,35:1E3A8A,70:6D28D9,100:9333EA&text=Vadim%20Kubrak&fontColor=F8FAFC&fontSize=62&fontAlignY=34&desc=AI%20%2F%20LLM%20Application%20Engineer&descSize=20&descAlignY=53&animation=fadeIn&stroke=6D28D9&strokeWidth=0" alt="Vadim Kubrak — AI / LLM Application Engineer" />
 
 <a href="https://github.com/Archangel-gabri">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=780&height=44&lines=Production+LLM+systems%2C+not+demos.;Multi-agent+pipelines+%C2%B7+RAG+%C2%B7+MCP+%C2%B7+Claude+API;FastAPI+%2B+React+%2B+Docker+%2B+Linux+infra;Shipped+products+with+real%2C+paying+users." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=780&height=44&lines=Production+LLM+systems%2C+not+demos.;Multi-agent+pipelines+%C2%B7+RAG+%C2%B7+MCP+%C2%B7+Claude+API;FastAPI+%2B+React+%2B+Docker+%2B+Linux+infra;Systems+people+log+into%2C+not+notebooks." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -31,10 +31,14 @@
 
 I build **LLM-powered systems that run in production** — not notebooks, not demos.
 
-Over the last two years I shipped a multi-node VPN platform serving live users, a CRM with a 53-endpoint
-FastAPI backend, and a university-wide records system deployed on real hardware. In parallel I ran a
-**process-level benchmark of 12 LLMs across 75 university math problems** and published the full dataset.
-The through-line: I take an AI capability and turn it into something people actually log into.
+Over the last two years I shipped a multi-node VPN platform that served live users until I retired it, a
+CRM with a 53-endpoint FastAPI backend still running for its client, and a university records system
+deployed on real hardware. In parallel I ran a **process-level benchmark of 12 LLMs across 75 university
+math problems** and published the dataset and the harness that produced it.
+
+Most of that is now open below — the CRM, the desktop command center, the records system, the benchmark
+and two browser extensions. The through-line: I take an AI capability and turn it into something people
+actually log into.
 
 ```yaml
 role:      AI / LLM Application Engineer  ·  Full-Stack
@@ -57,11 +61,12 @@ languages: Russian (native) · English (C1 Advanced, EF SET 89/100)
 <td width="50%" valign="top">
 
 ### 🛰 HubVPN
-**Production VPN platform · live users**
+**Multi-node VPN platform · ran in production, retired Aug 2026**
 
 Multi-node VLESS/Xray fleet on a Remnawave control plane — Germany master, Moscow cascade, Finland &
 Japan exits. Telegram-first onboarding, provisioning and node lifecycle handled end-to-end by me:
-DPI-resistant transport (Vision/XHTTP), TLS, monitoring, backups.
+DPI-resistant transport (Vision/XHTTP), TLS, monitoring, backups. Shut down when the need for it
+went away; the German node still carries my other projects.
 
 `Xray` `Remnawave` `Linux` `nginx` `Docker`
 
@@ -77,7 +82,7 @@ prompts, grading rubrics and scoring code are public, in Russian and English.
 
 `Python` `LLM-as-a-judge` `Open dataset`
 
-[**→ Repository**](https://github.com/Archangel-gabri/llm-university-math-benchmark)
+[**→ Dataset**](https://github.com/Archangel-gabri/llm-university-math-benchmark) · [**→ Harness**](https://github.com/Archangel-gabri/llm-math-benchmark-harness)
 
 </td>
 </tr>
@@ -85,7 +90,7 @@ prompts, grading rubrics and scoring code are public, in Russian and English.
 <td width="50%" valign="top">
 
 ### ⛳ Golf Club CRM
-**Full-stack SaaS · client-facing** &nbsp;<img src="https://img.shields.io/badge/private-64748B?style=flat-square" alt="private" />
+**Full-stack CRM · in production for a client**
 
 Booking, membership and billing CRM for a Moscow golf club. 53 REST endpoints on FastAPI +
 SQLAlchemy + Pydantic with JWT auth, React 18 / TypeScript / Vite / TanStack Query front end,
@@ -93,11 +98,13 @@ deployed behind nginx with TLS.
 
 `FastAPI` `React 18` `TypeScript` `PostgreSQL` `Docker`
 
+[**→ Repository**](https://github.com/Archangel-gabri/golf-crm)
+
 </td>
 <td width="50%" valign="top">
 
 ### 🧭 Argus
-**Local-first desktop command center** &nbsp;<img src="https://img.shields.io/badge/private-64748B?style=flat-square" alt="private" />
+**Local-first desktop command center**
 
 Electron app that puts servers, subscriptions, finances and AI-provider quotas in one place. Reads real
 usage from provider APIs, tracks spend per model, ships as an AppImage. ~450 tests across a proper
@@ -105,19 +112,23 @@ test pyramid.
 
 `Electron` `React` `TypeScript` `SQLite` `Tailwind`
 
+[**→ Repository**](https://github.com/Archangel-gabri/argus)
+
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
 ### 🏥 MedSpravki REU
-**Deployed institutional system** &nbsp;<img src="https://img.shields.io/badge/private-64748B?style=flat-square" alt="private" />
+**Deployed institutional system**
 
 Medical-certificate registry for the Physical Education department at Plekhanov REU. ASP.NET Core +
 PostgreSQL, with a **local Ollama vision model** reading scanned certificates into structured records.
 Running on real hardware, exposed via Tailscale Funnel.
 
 `ASP.NET Core` `PostgreSQL` `Ollama` `Docker`
+
+[**→ Repository**](https://github.com/Archangel-gabri/medspravki-reu)
 
 </td>
 <td width="50%" valign="top">
@@ -130,6 +141,38 @@ subagents, MCP servers, lifecycle hooks, an async delegation queue and a semanti
 local embeddings. 470+ commits.
 
 `Claude API` `MCP` `TypeScript` `Python` `Shell`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧹 Clean Listings
+**Chrome extension · zero configuration**
+
+Makes a classifieds search page readable again: dims listings you already opened, marks professional
+sellers, and shows who took over the page. On a live "iPhone 16" search, 47 of 50 cards were
+storefronts — the site's own "private sellers" filter still returned a phone chain and a buy-back
+shop with 1,470 reviews, so the extension adds a behavioural test on top of it.
+
+`MV3` `No dependencies` `No network calls`
+
+[**→ Repository**](https://github.com/Archangel-gabri/clean-listings)
+
+</td>
+<td width="50%" valign="top">
+
+### 🏷 Price Elsewhere
+**Chrome extension · cross-marketplace pricing**
+
+Open a product on Ozon, Wildberries or Yandex Market and see what it costs on the other two.
+The hard part is matching without a shared identifier — and refusing to report the cheapest hit,
+because counterfeits and wrong bundles live in the cheap tail. It reports the *usual* price and
+says plainly when it is unsure instead of promising a saving it cannot back.
+
+`MV3` `Service worker` `No backend`
+
+[**→ Repository**](https://github.com/Archangel-gabri/price-elsewhere)
 
 </td>
 </tr>
@@ -278,7 +321,7 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 
 ## `~` Currently
 
-- 🔭 Scaling **HubVPN** — DPI-resistant transports and a cleaner multi-node control plane
+- 🔭 Shipping small, self-contained browser tools — the two extensions above, and the next one
 - 🧪 Redesigning the **LLM math-evaluation study** around a new question: how much of an automatic
   judge's reliability depends on the *language* of the problem, the solution and the rubric
 - 🛠 Building agentic tooling — MCP servers, multi-agent orchestration, local-first AI apps
