@@ -1,10 +1,10 @@
 <!-- ────────────────────────────  BANNER  ──────────────────────────── -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0B1120,35:1E3A8A,70:6D28D9,100:9333EA&text=Vadim%20Kubrak&fontColor=F8FAFC&fontSize=62&fontAlignY=34&desc=AI%20%2F%20LLM%20Application%20Engineer&descSize=20&descAlignY=53&animation=fadeIn&stroke=6D28D9&strokeWidth=0" alt="Vadim Kubrak — AI / LLM Application Engineer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0B1120,35:1E3A8A,70:6D28D9,100:9333EA&text=Vadim%20Kubrak&fontColor=F8FAFC&fontSize=62&fontAlignY=34&desc=Data%20Engineer%20%26%20Data%20Analyst&descSize=20&descAlignY=53&animation=fadeIn&stroke=6D28D9&strokeWidth=0" alt="Vadim Kubrak — Data Engineer &amp; Data Analyst" />
 
 <a href="https://github.com/Archangel-gabri">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=780&height=44&lines=Production+LLM+systems%2C+not+demos.;Multi-agent+pipelines+%C2%B7+RAG+%C2%B7+MCP+%C2%B7+Claude+API;FastAPI+%2B+React+%2B+Docker+%2B+Linux+infra;Systems+people+log+into%2C+not+notebooks." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=780&height=44&lines=Pipelines+that+make+the+numbers+available.;Analysis+that+makes+them+mean+something.;Python+%C2%B7+SQL+%C2%B7+PostgreSQL+%C2%B7+ETL%2FELT+%C2%B7+FastAPI;Docker+%C2%B7+Linux+%C2%B7+CI%2FCD+%E2%80%94+and+I+keep+it+running." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -29,23 +29,27 @@
 
 ## `~` whoami
 
-I build **LLM-powered systems that run in production** — not notebooks, not demos.
+I work at **both ends of a data problem**: I build the pipelines that make the numbers available, and I
+do the analysis that makes them mean something.
 
-Over the last two years I shipped a multi-node VPN platform that served live users until I retired it, a
-CRM with a 53-endpoint FastAPI backend still running for its client, and a university records system
-deployed on real hardware. In parallel I ran a **process-level benchmark of 12 LLMs across 75 university
-math problems** and published the dataset and the harness that produced it.
+Right now that means **ProcureCheck** for a city administration — a Python/FastAPI service that reads
+procurement document packages and runs twenty compliance checks against federal law, now in live use by
+a department. Before it, six months of data analytics at a bank: warehouse tables joined and cleaned in
+SQL, an analytical view for segmentation, cohort retention and churn, and a pipeline that cut a recurring
+report from most of a working day to about fifteen minutes.
 
-Most of that is now open below — the CRM, the desktop command center, the records system, the benchmark
-and two browser extensions. The through-line: I take an AI capability and turn it into something people
-actually log into.
+That combination is deliberate. An analyst who cannot build the pipeline waits for someone else to build
+it; an engineer who has never had to answer a business question builds the wrong table.
+
+Ten repositories below are public, and I would rather be read than believed.
 
 ```yaml
-role:      AI / LLM Application Engineer  ·  Full-Stack
-focus:     multi-agent orchestration · RAG · MCP · agentic tooling
-backend:   Python · FastAPI · SQLAlchemy · PostgreSQL · C#/ASP.NET
-frontend:  TypeScript · React 18 · Vite · TanStack · Tailwind · Electron
-infra:     Linux (Arch/Debian) · Docker · nginx · systemd · Xray/Remnawave
+role:      Data Engineer  ·  Data Analyst
+data:      Python · SQL · PostgreSQL · ETL/ELT · relational modeling · scheduled jobs
+analytics: cohort retention · segmentation · churn · pandas · NumPy · Plotly
+backend:   FastAPI · SQLAlchemy · Pydantic · C#/ASP.NET Core
+infra:     Linux (Arch/Debian) · Docker · nginx · systemd · GitLab CI · GitHub Actions
+ai:        Claude API · OpenAI API · MCP · RAG · LLM-as-a-judge · Ollama
 education: Plekhanov REU — Statistics  ·  School 21 (Sber) — Data Science
 languages: Russian (native) · English (C1 Advanced, EF SET 89/100)
 ```
@@ -61,12 +65,13 @@ languages: Russian (native) · English (C1 Advanced, EF SET 89/100)
 <td width="50%" valign="top">
 
 ### 🛰 HubVPN
-**Multi-node VPN platform · ran in production, retired Aug 2026**
+**Multi-node private network platform · closed cleanly, Aug 2026**
 
-Multi-node VLESS/Xray fleet on a Remnawave control plane — Germany master, Moscow cascade, Finland &
-Japan exits. Telegram-first onboarding, provisioning and node lifecycle handled end-to-end by me:
-DPI-resistant transport (Vision/XHTTP), TLS, monitoring, backups. Shut down when the need for it
-went away; the German node still carries my other projects.
+A VLESS/Xray fleet on a Remnawave control plane — Germany master, Moscow cascade, Finland & Japan
+exits — run for a small private group, never monetised. Telegram-first onboarding, provisioning and
+node lifecycle handled end-to-end by me: DPI-resistant transport (Vision/XHTTP), TLS, monitoring,
+backups, incident response. Shut down when the need for it went away; the German node still carries
+my other projects.
 
 `Xray` `Remnawave` `Linux` `nginx` `Docker`
 
@@ -107,8 +112,8 @@ deployed behind nginx with TLS.
 **Local-first desktop command center**
 
 Electron app that puts servers, subscriptions, finances and AI-provider quotas in one place. Reads real
-usage from provider APIs, tracks spend per model, ships as an AppImage. ~450 tests across a proper
-test pyramid.
+usage from provider APIs, tracks spend per model, ships as an AppImage. The store is SQLCipher with an
+Argon2id key and secrets never leave the privileged process. **994 tests across 87 files.**
 
 `Electron` `React` `TypeScript` `SQLite` `Tailwind`
 
@@ -219,7 +224,6 @@ a provider means adding an adapter, not touching the orchestrator.
 |---|---|---|
 | **GORKYCODE 2025** | Hackathon — an AI service for public-procurement paperwork: computes the starting contract price under Russian 44-FZ and drafts the technical specification through a multi-step dialogue, with an LLM reading the answers. Cut spec preparation from ~8 hours to minutes | `Python` `GigaChat` `webhooks` |
 | **Маршруты** | Telegram bot that plans personalised city walks — an LLM picks points of interest, 2GIS optimises the route. Planning went ~10× faster; users rated it 4.7/5 | `Python` `GigaChat API` `2GIS API` |
-| **ProcureCheck** | Automated validation of Russian public-procurement notices for a team — parses tender PDFs and flags rule violations before submission | `Python` `pymupdf` `pdfplumber` |
 | **ds5x** | Linux equivalent of DSX for the DualSense controller — adaptive triggers, lightbar, haptics | `C++` `Linux HID` |
 | **PROEB routing** | White-list routing rule compiler that emits client-specific profiles for Happ, Xray, sing-box and mihomo from one ruleset | `Python` |
 
@@ -233,6 +237,22 @@ a provider means adding an adapter, not touching the orchestrator.
 
 <table>
 <tr><td width="50%" valign="top">
+
+**Data Engineer — Nizhny Novgorod City Administration**
+*Jun 2026 – present · data-engineering team*
+
+**ProcureCheck**: automated compliance checking of public-procurement document packages under federal
+laws 44-FZ and 223-FZ. Four documents in, a summary and a full report across twenty checks out.
+Python, FastAPI, PDF and DOCX extraction, Docker, GitLab CI.
+**More commits in the project than anyone else on the team.**
+
+Now in live use by a city department. Traced three false findings reported by its staff to a single
+root cause — a converter emitting text without word boundaries — and fixed the class rather than the
+three symptoms.
+
+`Python` `FastAPI` `PyMuPDF` `pdfplumber` `Docker` `GitLab CI`
+
+<br/>
 
 **Data Analytics Intern — Gazprombank (JSC)**
 *Mar – Aug 2026*
@@ -279,7 +299,30 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 <img src="https://skillicons.dev/icons?i=python,ts,js,cs,cpp,bash,latex,md&theme=dark" alt="languages" />
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
 
-**AI / ML**
+**Data & Analytics**
+
+<img src="https://skillicons.dev/icons?i=postgres,sqlite,anaconda&theme=dark" alt="data" />
+<br/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+<img src="https://img.shields.io/badge/ETL%20%2F%20ELT-0F766E?style=flat-square" alt="ETL / ELT" />
+<img src="https://img.shields.io/badge/Data%20modeling-6D28D9?style=flat-square" alt="Data modeling" />
+<img src="https://img.shields.io/badge/Data%20quality-9333EA?style=flat-square" alt="Data quality" />
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+<img src="https://img.shields.io/badge/Alembic-6BA81E?style=flat-square" alt="Alembic" />
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly" />
+<img src="https://img.shields.io/badge/Cohort%20%26%20retention-1E3A8A?style=flat-square" alt="Cohort and retention analytics" />
+
+**Backend**
+
+<img src="https://skillicons.dev/icons?i=fastapi,dotnet,redis,prisma,nginx&theme=dark" alt="backend" />
+<br/>
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/REST-0F766E?style=flat-square" alt="REST" />
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+
+**AI / LLM**
 
 <img src="https://skillicons.dev/icons?i=pytorch,sklearn,anaconda&theme=dark" alt="ai" />
 <br/>
@@ -292,17 +335,7 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 <img src="https://img.shields.io/badge/RAG-0F766E?style=flat-square" alt="RAG" />
 <img src="https://img.shields.io/badge/Multi--agent%20orchestration-6D28D9?style=flat-square" alt="Multi-agent orchestration" />
 <img src="https://img.shields.io/badge/Vector%20search-9333EA?style=flat-square" alt="Vector search" />
-
-**Backend & Data**
-
-<img src="https://skillicons.dev/icons?i=fastapi,dotnet,postgres,sqlite,redis,prisma,nginx&theme=dark" alt="backend" />
-<br/>
-<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
-<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-
+<img src="https://img.shields.io/badge/LLM--as--a--judge-1E293B?style=flat-square" alt="LLM-as-a-judge" />
 **Frontend**
 
 <img src="https://skillicons.dev/icons?i=react,vite,tailwind,electron,html,css,figma&theme=dark" alt="frontend" />
@@ -356,7 +389,7 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 - 🧪 Redesigning the **LLM math-evaluation study** around a new question: how much of an automatic
   judge's reliability depends on the *language* of the problem, the solution and the rubric
 - 🛠 Building agentic tooling — MCP servers, multi-agent orchestration, local-first AI apps
-- 🌍 **Open to AI/LLM engineering roles in the EU** — relocation ready
+- 🌍 **Open to data engineering and data analytics roles in the EU** — relocation ready
 
 <br/>
 
