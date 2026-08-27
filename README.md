@@ -176,6 +176,38 @@ says plainly when it is unsure instead of promising a saving it cannot back.
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 👻 Ghost
+**Desktop voice assistant · Qt overlay**
+
+Speak a question, and it reads what is on screen and streams the answer token-by-token into a
+frosted-glass overlay. The interesting line is the thread boundary: a `QThread` owns the whole
+audio → speech-to-text → model chain and talks to the UI only through signals, so a two-second
+transcription never freezes the window it is typing into. Speech-to-text runs on Groq or fully
+offline via faster-whisper; tools are added by editing a YAML file, not by writing code.
+
+`PySide6` `Qt` `Python` `Whisper` `Streaming`
+
+[**→ Repository**](https://github.com/Archangel-gabri/ghost-assistant)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧪 LLM Math Harness
+**Research tooling**
+
+The runner behind the benchmark above: 12 models × 75 problems through OpenRouter, judged on a
+process-level rubric, aggregated into the result tables. One thin adapter per API surface — adding
+a provider means adding an adapter, not touching the orchestrator.
+
+`Python` `OpenRouter` `LLM-as-a-judge`
+
+[**→ Repository**](https://github.com/Archangel-gabri/llm-math-benchmark-harness)
+
+</td>
+</tr>
 </table>
 
 <details>
@@ -188,7 +220,6 @@ says plainly when it is unsure instead of promising a saving it cannot back.
 | **GORKYCODE 2025** | Hackathon — an AI service for public-procurement paperwork: computes the starting contract price under Russian 44-FZ and drafts the technical specification through a multi-step dialogue, with an LLM reading the answers. Cut spec preparation from ~8 hours to minutes | `Python` `GigaChat` `webhooks` |
 | **Маршруты** | Telegram bot that plans personalised city walks — an LLM picks points of interest, 2GIS optimises the route. Planning went ~10× faster; users rated it 4.7/5 | `Python` `GigaChat API` `2GIS API` |
 | **ProcureCheck** | Automated validation of Russian public-procurement notices for a team — parses tender PDFs and flags rule violations before submission | `Python` `pymupdf` `pdfplumber` |
-| **Ghost** | Interview assistant: captures voice and screen, feeds them to an LLM, answers in a glass overlay | `PySide6` `Qt` `LLM APIs` |
 | **ds5x** | Linux equivalent of DSX for the DualSense controller — adaptive triggers, lightbar, haptics | `C++` `Linux HID` |
 | **PROEB routing** | White-list routing rule compiler that emits client-specific profiles for Happ, Xray, sing-box and mihomo from one ruleset | `Python` |
 
