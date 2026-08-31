@@ -17,16 +17,18 @@ on:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       # One card, not two: the `languages` plugin reads the repository list
       # that `base` loads, so a second card with `base: ""` renders empty.
       - name: Overview card
-        uses: lowlighter/metrics@v3.34
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           # METRICS_TOKEN (classic PAT with `repo`) also counts private
           # contributions. Falls back to the built-in token if absent.
