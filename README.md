@@ -113,7 +113,7 @@ deployed behind nginx with TLS.
 
 Electron app that puts servers, subscriptions, finances and AI-provider quotas in one place. Reads real
 usage from provider APIs, tracks spend per model, ships as an AppImage. The store is SQLCipher with an
-Argon2id key and secrets never leave the privileged process. **994 tests across 87 files.**
+Argon2id key and secrets never leave the privileged process. **1,330 tests across 103 files.**
 
 `Electron` `React` `TypeScript` `SQLite` `Tailwind`
 
