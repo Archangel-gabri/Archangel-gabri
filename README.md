@@ -10,7 +10,6 @@
 <br/>
 
 <!-- ────────────────────────────  CONTACT  ─────────────────────────── -->
-<a href="https://archangel-gabri.github.io/"><img src="https://img.shields.io/badge/Portfolio-archangel--gabri.github.io-6D28D9?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/vadimkubrak/"><img src="https://img.shields.io/badge/LinkedIn-vadimkubrak-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://t.me/Castiel68"><img src="https://img.shields.io/badge/Telegram-@Castiel68-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 <a href="mailto:kubrak15112006@gmail.com"><img src="https://img.shields.io/badge/Email-kubrak15112006-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -19,7 +18,7 @@
 <a href="https://www.kaggle.com/vadimkubrak"><img src="https://img.shields.io/badge/Kaggle-vadimkubrak-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
 <a href="https://orcid.org/0009-0003-1553-2982"><img src="https://img.shields.io/badge/ORCID-0009--0003--1553--2982-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 <a href="https://cert.efset.org/AUNUCR"><img src="https://img.shields.io/badge/English-C1%20Advanced%20(EF%20SET%2089%2F100)-1E40AF?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English C1" /></a>
-<img src="https://img.shields.io/badge/Moscow-Open%20to%20EU%20relocation-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+<img src="https://img.shields.io/badge/Moscow-Open%20to%20relocation-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 
 </div>
 
@@ -32,16 +31,17 @@
 I work at **both ends of a data problem**: I build the pipelines that make the numbers available, and I
 do the analysis that makes them mean something.
 
-Right now that means **ProcureCheck** for a city administration — a Python/FastAPI service that reads
-procurement document packages and runs twenty compliance checks against federal law, now in live use by
-a department. Before it, six months of data analytics at a bank: warehouse tables joined and cleaned in
+From June to September 2026 I built **ProcureCheck** for a city administration — a Python/FastAPI
+service that reads procurement document packages and runs twenty compliance checks against federal law.
+A city department used it every day. Before and alongside it, six months of data analytics at a
+bank: warehouse tables joined and cleaned in
 SQL, an analytical view for segmentation, cohort retention and churn, and a pipeline that cut a recurring
 report from most of a working day to about fifteen minutes.
 
 That combination is deliberate. An analyst who cannot build the pipeline waits for someone else to build
 it; an engineer who has never had to answer a business question builds the wrong table.
 
-Ten repositories below are public, and I would rather be read than believed.
+Most of what is below is public, and I would rather be read than believed.
 
 ```yaml
 role:      Data Engineer  ·  Data Analyst
@@ -50,7 +50,7 @@ analytics: cohort retention · segmentation · churn · pandas · NumPy · Plotl
 backend:   FastAPI · SQLAlchemy · Pydantic · C#/ASP.NET Core
 infra:     Linux (Arch/Debian) · Docker · nginx · systemd · GitLab CI · GitHub Actions
 ai:        Claude API · OpenAI API · MCP · RAG · LLM-as-a-judge · Ollama
-education: Plekhanov REU — Statistics  ·  School 21 (Sber) — Data Science
+education: Plekhanov REU — Statistics  ·  School 21 (Sber) — Data Science (completed 2026)
 languages: Russian (native) · English (C1 Advanced, EF SET 89/100)
 ```
 
@@ -129,7 +129,7 @@ Argon2id key and secrets never leave the privileged process. **994 tests across 
 
 Medical-certificate registry for the Physical Education department at Plekhanov REU. ASP.NET Core +
 PostgreSQL, with a **local Ollama vision model** reading scanned certificates into structured records.
-Running on real hardware, exposed via Tailscale Funnel.
+Running on real hardware.
 
 `ASP.NET Core` `PostgreSQL` `Ollama` `Docker`
 
@@ -138,7 +138,7 @@ Running on real hardware, exposed via Tailscale Funnel.
 </td>
 <td width="50%" valign="top">
 
-### 🤖 PROEB — AI workspace
+### 🤖 AI workspace
 **Agentic engineering environment** &nbsp;<img src="https://img.shields.io/badge/private-64748B?style=flat-square" alt="private" />
 
 My daily driver: a multi-runtime agent workspace wiring Claude Code and Codex together — named
@@ -223,9 +223,8 @@ a provider means adding an adapter, not touching the orchestrator.
 | Project | What it is | Stack |
 |---|---|---|
 | **GORKYCODE 2025** | Hackathon — an AI service for public-procurement paperwork: computes the starting contract price under Russian 44-FZ and drafts the technical specification through a multi-step dialogue, with an LLM reading the answers. Cut spec preparation from ~8 hours to minutes | `Python` `GigaChat` `webhooks` |
-| **Маршруты** | Telegram bot that plans personalised city walks — an LLM picks points of interest, 2GIS optimises the route. Planning went ~10× faster; users rated it 4.7/5 | `Python` `GigaChat API` `2GIS API` |
-| **ds5x** | Linux equivalent of DSX for the DualSense controller — adaptive triggers, lightbar, haptics | `C++` `Linux HID` |
-| **PROEB routing** | White-list routing rule compiler that emits client-specific profiles for Happ, Xray, sing-box and mihomo from one ruleset | `Python` |
+| **City walks bot (Маршруты)** | Telegram bot that plans personalised city walks — an LLM picks points of interest, 2GIS optimises the route. | `Python` `GigaChat API` `2GIS API` |
+| **Routing compiler** | White-list routing rule compiler that emits client-specific profiles for Happ, Xray, sing-box and mihomo from one ruleset | `Python` |
 
 </details>
 
@@ -239,14 +238,14 @@ a provider means adding an adapter, not touching the orchestrator.
 <tr><td width="50%" valign="top">
 
 **Data Engineer — Nizhny Novgorod City Administration**
-*Jun 2026 – present · data-engineering team*
+*Jun – Sep 2026 · data-engineering team*
 
 **ProcureCheck**: automated compliance checking of public-procurement document packages under federal
 laws 44-FZ and 223-FZ. Four documents in, a summary and a full report across twenty checks out.
 Python, FastAPI, PDF and DOCX extraction, Docker, GitLab CI.
-**More commits in the project than anyone else on the team.**
+19 commits, the most on the team.
 
-Now in live use by a city department. Traced three false findings reported by its staff to a single
+Used daily by a city department. Traced three false findings reported by its staff to a single
 root cause — a converter emitting text without word boundaries — and fixed the class rather than the
 three symptoms.
 
@@ -276,7 +275,7 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 **Education**
 
 • **Plekhanov Russian University of Economics** — BSc Statistics / Data Science *(in progress)*<br/>
-• **School 21 (Sber)** — Data Science track, peer-to-peer C and algorithms curriculum
+• **School 21 (Sber)** — Data Science track, peer-to-peer C and algorithms curriculum *(completed 2026)*
 
 **Languages**
 
@@ -316,7 +315,7 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=fastapi,dotnet,redis,prisma,nginx&theme=dark" alt="backend" />
+<img src="https://skillicons.dev/icons?i=fastapi,dotnet,nginx&theme=dark" alt="backend" />
 <br/>
 <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
 <img src="https://img.shields.io/badge/REST-0F766E?style=flat-square" alt="REST" />
@@ -333,12 +332,11 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
 <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
 <img src="https://img.shields.io/badge/RAG-0F766E?style=flat-square" alt="RAG" />
-<img src="https://img.shields.io/badge/Multi--agent%20orchestration-6D28D9?style=flat-square" alt="Multi-agent orchestration" />
 <img src="https://img.shields.io/badge/Vector%20search-9333EA?style=flat-square" alt="Vector search" />
 <img src="https://img.shields.io/badge/LLM--as--a--judge-1E293B?style=flat-square" alt="LLM-as-a-judge" />
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,electron,html,css,figma&theme=dark" alt="frontend" />
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,electron,html,css&theme=dark" alt="frontend" />
 <br/>
 <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query" />
 
@@ -349,8 +347,6 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 <img src="https://img.shields.io/badge/systemd-30B980?style=flat-square&logo=linux&logoColor=white" alt="systemd" />
 <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" alt="Tailscale" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
-<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
 <img src="https://img.shields.io/badge/Xray%20%2F%20Remnawave-1E3A8A?style=flat-square" alt="Xray / Remnawave" />
 
 </div>
@@ -388,8 +384,8 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 - 🔭 Shipping small, self-contained browser tools — the two extensions above, and the next one
 - 🧪 Redesigning the **LLM math-evaluation study** around a new question: how much of an automatic
   judge's reliability depends on the *language* of the problem, the solution and the rubric
-- 🛠 Building agentic tooling — MCP servers, multi-agent orchestration, local-first AI apps
-- 🌍 **Open to data engineering and data analytics roles in the EU** — relocation ready
+- 🛠 Building agentic tooling — MCP servers and local-first AI apps
+- 🌍 **Open to data engineering and data analytics roles** — remote or with relocation
 
 <br/>
 
@@ -397,6 +393,6 @@ analysts used to write by hand, wrapped in a small internal FastAPI interface.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:9333EA,30:6D28D9,65:1E3A8A,100:0B1120&reversal=true" alt="" />
 
-<sub>Reach me on <a href="https://www.linkedin.com/in/vadimkubrak/">LinkedIn</a> · <a href="https://t.me/Castiel68">Telegram</a> · <a href="mailto:kubrak15112006@gmail.com">Email</a> — full CV at <a href="https://archangel-gabri.github.io/">archangel-gabri.github.io</a></sub>
+<sub>Reach me on <a href="https://www.linkedin.com/in/vadimkubrak/">LinkedIn</a> · <a href="https://t.me/Castiel68">Telegram</a> · <a href="mailto:kubrak15112006@gmail.com">Email</a></sub>
 
 </div>
