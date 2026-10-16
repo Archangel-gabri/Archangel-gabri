@@ -8,7 +8,6 @@
 <br/>
 <a href="https://huggingface.co/vadimkubrak"><img src="https://img.shields.io/badge/Hugging%20Face-vadimkubrak-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
 <a href="https://www.kaggle.com/vadimkubrak"><img src="https://img.shields.io/badge/Kaggle-vadimkubrak-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
-<a href="https://orcid.org/0009-0003-1553-2982"><img src="https://img.shields.io/badge/ORCID-0009--0003--1553--2982-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 <a href="https://cert.efset.org/AUNUCR"><img src="https://img.shields.io/badge/English-C1%20Advanced%20(EF%20SET%2089%2F100)-1E40AF?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English C1" /></a>
 <img src="https://img.shields.io/badge/Moscow-Open%20to%20relocation-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 
@@ -48,22 +47,6 @@ my other projects.
 </td>
 <td width="50%" valign="top">
 
-### 📊 LLM University Math Benchmark
-**Research · open dataset**
-
-A *process-level* benchmark: 75 university math problems × 12 LLMs, every solution rubric-graded by an
-LLM-as-a-judge — scoring the reasoning chain, not just the final answer. Problems, raw model outputs,
-prompts, grading rubrics and scoring code are public, in Russian and English.
-
-`Python` `LLM-as-a-judge` `Open dataset`
-
-[**→ Dataset**](https://github.com/Archangel-gabri/llm-university-math-benchmark) · [**→ Harness**](https://github.com/Archangel-gabri/llm-math-benchmark-harness)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### ⛳ Golf Club CRM
 **Full-stack CRM · in production for a client**
 
@@ -76,6 +59,8 @@ deployed behind nginx with TLS.
 [**→ Repository**](https://github.com/Archangel-gabri/golf-crm)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🧭 Argus
@@ -90,22 +75,22 @@ Argon2id key and secrets never leave the privileged process. **1,330 tests acros
 [**→ Repository**](https://github.com/Archangel-gabri/argus)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🏥 MedSpravki REU
-**Deployed institutional system**
+**Delivered to the department**
 
 Medical-certificate registry for the Physical Education department at Plekhanov REU. ASP.NET Core +
 PostgreSQL, with a **local Ollama vision model** reading scanned certificates into structured records.
-Running on real hardware.
+Completed and handed over to the department.
 
 `ASP.NET Core` `PostgreSQL` `Ollama` `Docker`
 
 [**→ Repository**](https://github.com/Archangel-gabri/medspravki-reu)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🤖 AI workspace
@@ -118,8 +103,6 @@ local embeddings. 470+ commits.
 `Claude API` `MCP` `TypeScript` `Python` `Shell`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🧹 Clean Listings
@@ -135,6 +118,8 @@ shop with 1,470 reviews, so the extension adds a behavioural test on top of it.
 [**→ Repository**](https://github.com/Archangel-gabri/clean-listings)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🏷 Price Elsewhere
@@ -150,8 +135,6 @@ says plainly when it is unsure instead of promising a saving it cannot back.
 [**→ Repository**](https://github.com/Archangel-gabri/price-elsewhere)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 👻 Ghost
@@ -166,20 +149,6 @@ offline via faster-whisper; tools are added by editing a YAML file, not by writi
 `PySide6` `Qt` `Python` `Whisper` `Streaming`
 
 [**→ Repository**](https://github.com/Archangel-gabri/ghost-assistant)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧪 LLM Math Harness
-**Research tooling**
-
-The runner behind the benchmark above: 12 models × 75 problems through OpenRouter, judged on a
-process-level rubric, aggregated into the result tables. One thin adapter per API surface — adding
-a provider means adding an adapter, not touching the orchestrator.
-
-`Python` `OpenRouter` `LLM-as-a-judge`
-
-[**→ Repository**](https://github.com/Archangel-gabri/llm-math-benchmark-harness)
 
 </td>
 </tr>
