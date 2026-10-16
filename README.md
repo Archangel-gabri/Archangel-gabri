@@ -50,7 +50,7 @@ my other projects.
 ### ⛳ Golf Club CRM
 **Full-stack CRM · in production for a client**
 
-Booking, membership and billing CRM for a Moscow golf club. 53 REST endpoints on FastAPI +
+Booking, membership and billing CRM for a Moscow golf club. 90 REST endpoints on FastAPI +
 SQLAlchemy + Pydantic with JWT auth, React 18 / TypeScript / Vite / TanStack Query front end,
 deployed behind nginx with TLS.
 
